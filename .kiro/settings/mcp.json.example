@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "postgres": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "mcp-postgres-server/index.js"
+      ],
+      "env": {
+        "DATABASE_URL": "postgresql://<user>:<password>@<host>:<port>/<database>",
+        "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
